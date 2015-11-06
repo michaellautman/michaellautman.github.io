@@ -33,9 +33,11 @@
 </nav>
 
 <div class="row padded-10">
-  <div class="medium-9 small-12 columns">
-    <h2>Changes in Matter</h2>
-<p>
+  <h1>1.2 Changes in Matter</h1>
+</div>
+<div class="row">
+    <div class="medium-9 small-12 columns">
+    <p>
 
 There are two types of change in matter: physical change and chemical change. As the names suggest, physical changes affect physical properties, and chemical changes affect chemical properties.</p>
 <p>
@@ -60,8 +62,8 @@ Note that the number of reactants and products don't necessarily have to be the 
 Physical changes do not cause a substance to become a fundamentally different substance. Chemical changes, on the other hand, cause a substance to change into something entirely new. Chemical changes are typically irreversible, but that is not always the case. It is easier to understand the difference between physical and chemical changes with examples.
 </p>
 
-<div class="row">
-  <div class="small-12 medium-4 comlumns">
+<div class="row" data-equalizer>
+  <div class="small-12 medium-4 columns" data-equalizer-watch data-equalizer-mq="medium-up">
     <div class="panel callout radius">
       <h4>Physical Changes</h4>
 
@@ -78,7 +80,7 @@ Physical changes do not cause a substance to become a fundamentally different su
       </p>
     </div>
   </div>
-  <div class="small-12 medium-4 columns">
+  <div class="small-12 medium-4 columns" data-equalizer-watch>
     <div class="panel callout radius">
       <h4>Chemical Changes</h4>
       <p>
@@ -97,7 +99,7 @@ Physical changes do not cause a substance to become a fundamentally different su
 
     </div>
   </div>
-  <div class="small-12 medium-4 columns">
+  <div class="small-12 medium-4 columns" data-equalizer-watch>
     <div class="panel callout radius">
       <h4>Harder to Classify</h4>
       <p>
@@ -127,13 +129,39 @@ Physical changes do not cause a substance to become a fundamentally different su
 
   </div>
 </div>
+<div class="row" id="discussion">
+  <div id="disqus_thread"></div>
+<script>
+/**
+* RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+* LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL; // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
 
+s.src = '//generalchemistry.disqus.com/embed.js';
+
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+</div>
 
 <script src="js/vendor/jquery.js"></script>
 <script src="js/foundation.min.js"></script>
+
 <script>
   $(document).foundation();
 </script>
+<script id="dsq-count-scr" src="//generalchemistry.disqus.com/count.js" async></script>
 
 </body>
 </html>
